@@ -1,5 +1,5 @@
-{% set version = "0.7.2" %}
-{% set sha256 = "4e0add4787750b907a28d61a4e573a1c871c256ab7df46d8fd8dc12c94d85894" %}
+{% set version = "0.8.0" %}
+{% set sha256 = "7198e382483a7c923394050c23fdb580698209c23b758406d61d172c8c0300a9" %}
 
 package:
   name: hck
