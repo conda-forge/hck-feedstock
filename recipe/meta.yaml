@@ -1,5 +1,5 @@
-{% set version = "0.9.2" %}
-{% set sha256 = "56f1f288778ceb738f1974ec95de10493936f059a93b7f8717f88c1c6d01b67a" %}
+{% set version = "0.11.0" %}
+{% set sha256 = "1bfec031e1d5bc34ab32cee4e4185c0277d8e8f29712ec8f2dcdd8347011430b" %}
 
 package:
   name: hck
@@ -16,7 +16,9 @@ requirements:
   build:
     - {{ compiler('rust') }}
     - {{ compiler('c') }}  # [not win]
+    - {{ stdlib("c") }}    # [not win]
     - {{ compiler('m2w64_c') }}  # [win]
+    - {{ stdlib("m2w64_c") }}    # [win]
     - pkg-config
     - make
     - cmake
