@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 0.11.1
+  version: "0.11.5"
 
 package:
   name: hck
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://github.com/sstadick/hck/archive/v${{ version }}.tar.gz
-  sha256: 7b3d2e61d1e0014184e111c86a0ef92437820f9a090effa43bce6af2c220b315
+  sha256: 5ce5fc816e9e009dafe8c42a0bd6b9e6c8b7ca5a839af6a797fba9accc569242
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
